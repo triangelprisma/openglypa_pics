@@ -610,7 +610,7 @@ async def generate_meme(chat_id):
 		return byte_io.read()
 
 	if select == 21:
-		img = Image.open("./utils/resources/templates/17.jpg")
+		img = Image.open("./utils/resources/templates/21.jpg")
 
 		drawer = ImageDraw.Draw(img)
 		font = ImageFont.truetype("./utils/resources/fonts/impact.ttf", 45, encoding='UTF-8')
@@ -646,7 +646,7 @@ async def generate_meme(chat_id):
 		return byte_io.read()
 
 	if select == 22:
-		img = Image.open("./utils/resources/templates/18.jpg")
+		img = Image.open("./utils/resources/templates/22.jpg")
 
 		drawer = ImageDraw.Draw(img)
 		font = ImageFont.truetype("./utils/resources/fonts/timesnewroman.ttf", 35, encoding='UTF-8')
