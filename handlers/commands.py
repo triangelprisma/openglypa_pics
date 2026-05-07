@@ -1,5 +1,5 @@
 from aiogram import Router, F
-from aiogram.types import Message, BufferedInputFile
+from aiogram.types import Message, BufferedInputFile, ReactionTypeEmoji
 from aiogram.filters import Command
 from aiogram.utils.chat_member import ADMINS
 from aiogram.exceptions import TelegramBadRequest
